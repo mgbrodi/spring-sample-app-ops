@@ -1,5 +1,5 @@
 namePrefix: mark-  # CHANGE
 commonLabels:
-  app.kubernetes.io/name: mark-spring-sample-app  # CHANGE
+  app.kubernetes.io/name: spring-sample-app
 resources:
   - github.com/kustomizations/spring-boot-web?ref=master
