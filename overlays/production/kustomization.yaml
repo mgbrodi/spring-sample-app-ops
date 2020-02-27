@@ -1,0 +1,10 @@
+images:
+  - name: markpollack/spring-sample-app  # used for Kustomize matching
+    newName: markpollack/spring-sample-app # CHANGE
+    newTag: 1.0.0
+configMapGenerator:
+  - name: spring-configmap-env  # naming convention for reference
+    envs:
+      - env.properties
+resources:
+  - ../../base
