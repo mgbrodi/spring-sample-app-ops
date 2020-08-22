@@ -1,7 +1,7 @@
 images:
   - name: markpollack/spring-sample-app  # used for Kustomize matching
     newName: harbor.marygabry.name/spring-sample-app/spring-sample-app-tbs # CHANGE
-    newTag: v1.0
+    newTag: env.image_sha
 configMapGenerator:
   - name: spring-configmap-env  # naming convention for reference
     envs:
