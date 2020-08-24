@@ -1,5 +1,5 @@
 namePrefix: spring2020-  # CHANGE
-# commonLabels:
-#   app.kubernetes.io/name: spring-sample-app
+commonLabels:
+  name: app
 resources:
   - github.com/mgbrodi/spring-boot-web?ref=master
