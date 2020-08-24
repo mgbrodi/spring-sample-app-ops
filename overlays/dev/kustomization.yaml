@@ -1,7 +1,7 @@
 images:
   - name: markpollack/spring-sample-app  # used for Kustomize matching
     newName: harbor.marygabry.name/spring-sample-app/spring-sample-app-tbs # CHANGE
-    digest: sha256:0b19f05040aaa18765023206e7b2614d48721653b44288b1035b293e935bd586
+    digest: sha256:72278f79b4eb4f93f8f8d566b453e3e6a7e4db6f3107b72cc71c480cc45029e0
 configMapGenerator:
   - name: spring-configmap-env  # naming convention for reference
     envs:
