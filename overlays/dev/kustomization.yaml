@@ -1,6 +1,6 @@
 images:
   - name: harbor.marygabry.name/spring-sample-app/spring-sample-app-tbs  # used for Kustomize matching
     newName: harbor.marygabry.name/spring-sample-app/spring-sample-app-tbs # CHANGE
-    digest: sha256:154fc237690f50943303a47c24781c55c6e1746dd1995c1941c52bff27c191ae
+    digest: sha256:f2be30f84d6226e8d29440e72adea72c250c1fff3393da9b72a8941dd65dff83
 resources:
   - ../../base
