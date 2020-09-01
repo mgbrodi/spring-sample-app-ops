@@ -1,7 +1,7 @@
 images:
   - name: harbor.marygabry.name/spring-sample-app-signed/spring-sample-app-tbs  # used for Kustomize matching
     newName: harbor.marygabry.name/spring-sample-app-signed/spring-sample-app-tbs # CHANGE
-    newTag: signed_44
+    newTag: signed_45
     #digest: sha256:fdfd681841aa8a7564eca82db43d200a825ec2f04c381629eafbaa7dfebb98ff
 resources:
   - ../../base
